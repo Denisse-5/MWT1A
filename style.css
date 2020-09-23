@@ -1,0 +1,154 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    overflow: scroll;
+}
+
+header {
+    background-color: #061822;
+}
+
+.contenedor-central {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    text-indent: 50px;
+}
+
+#logo {
+    font-size: 25px;
+}
+
+.texto-espacio-logo {
+    letter-spacing: 3px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8b8888;
+}
+
+.navegacion-principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.enlaces {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.columna {
+    flex-basis: calc( 33% - 5px);
+}
+
+hr {
+    border: 1px solid grey;
+    background-color: grey;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.navegacion-complementaria {
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedor-metodos-anticonceptivos {
+    background-color: #33424a;
+    height: 30vh;
+    min-height: 200px;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.columna-metodos {
+    flex-basis: calc(50% - 20px);
+}
+
+.posicion-dos-columnas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.ancho-primera-columna {
+    flex-basis: calc(55% - 15px);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+
+.ancho-segunda-columna {
+    flex-basis: calc(45% - 15px);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    width: 400px;
+    max-width: 100%;
+    align-self: center;
+    margin: auto;
+}
+
+footer {
+    background-color: #345368;
+}
+
+.iconos-pie {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #345368;
+    padding: 15px;
+}
+
+.nav-pie {
+    flex-basis: 19%;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.navegacion-complementaria-pie {
+    background-color: #345368;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.nav-pie-complementaria {
+    flex-basis: 19%;
+    color: whitesmoke;
+    text-align: center;
+}
